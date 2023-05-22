@@ -16,8 +16,9 @@ header{
     text-align: center;
     justify-content: space-evenly;
 }
-h1{
-    text-decoration: underline overline var(--verde-tiffany-atenuada);
+
+span{
+font-size: 45px;
 }
 
 h3{
@@ -39,11 +40,11 @@ ul{
 }
 
 td{
-    font-size: 24px;
+    font-size: 26px;
 }
 
 p{
-    font-size: 25px;
+    font-size: 28px;
 }
 
 table{
@@ -136,7 +137,7 @@ width: 10%;
 
 img{
     width: 240px; 
-    height: 252px;
+    height: 281px;
     border-radius: 5px;
     
 }
