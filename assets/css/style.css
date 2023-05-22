@@ -1,0 +1,120 @@
+:root{
+    --verde-tiffany: rgb(10, 186, 181)
+}
+
+header{
+    text-align: center;
+    vertical-align: top;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3{
+    font-size: 35px;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    padding: 35px;
+    text-align: center;
+}
+margin
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.first-line{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+td{
+    font-size: 20px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.cakes-for-size{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+}
+
+.carrot-cake, .pool-cake{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+}
+
+.price{
+width: 10%;
+}
+
+.description{
+    width: 65%;
+}
+
+.flavor{
+    width: 20%;
+}
+
+.cake-slice{
+    text-align: center;
+}
+
+aside {
+    
+    height: 55rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+main{
+    width: 50%;
+    height: 55rem;
+}
+
+section{
+    margin-top: 10px;
+    width: 100%;
+}
+
+.cake-image{
+    background-color: var(--verde-tiffany);
+    padding: 50px 50px;
+    margin-left: 10px;
+}
+
+.birthday-cake{
+    text-align: center
+}
+
+
+body{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    position:static;
+    bottom:0;
+    left:0;
+}
